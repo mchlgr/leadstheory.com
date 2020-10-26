@@ -1,1 +1,1 @@
-web: gunicorn leadstheory.com.wsgi --log-file -
+web: gunicorn lt_website.wsgi --log-file -
