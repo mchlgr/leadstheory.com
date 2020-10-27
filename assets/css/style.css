@@ -172,6 +172,12 @@ input {
 	color: #f7ca18
 }
 
+.btn-login:hover {
+	background: transparent;
+	border-color: #CDCCCD;
+	color: #CDCCCD
+}
+
 /* Bootstrap Modification */
 
 hr {
@@ -191,7 +197,10 @@ hr {
 }
 
 .demo-1 .large-header {
-	background-image: url('../img/demo-1-bg.jpg');
+	
+	background-image:
+    linear-gradient(to bottom, rgba(0,34,68, 0.85), rgba(0,0,0, 0.92)),
+    url('../img/demo-1-bg.jpg');
 }
 
 .main-title {
