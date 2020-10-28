@@ -388,3 +388,8 @@ nm {
 	padding: 15px;
 	border-radius: 15px;
 }
+
+.big_point {
+	text-transform: uppercase;
+	color: #FF69B4;
+}
