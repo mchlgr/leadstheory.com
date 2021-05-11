@@ -36,6 +36,7 @@
 
 @font-face {
     font-family: 'Comfortaa';
+    src: url('../fonts/comfortaa/Comfortaa.eot');
     src: url('../fonts/comfortaa/Comfortaa.woff2') format('woff2'),
          url('../fonts/comfortaa/Comfortaa.woff') format('woff'),
          url('../fonts/comfortaa/Comfortaa.ttf') format('truetype');
@@ -263,7 +264,7 @@ hr {
 
 .main-title .thin {
 	font-family: Lato Thin;
-	font-weight: lighter;
+	font-weight: 100;
 }
 
 @media only screen and (max-width : 768px) {
