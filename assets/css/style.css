@@ -12,8 +12,28 @@
 ################################################################# */
 
 /* Import fonts */
-@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
-/*@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');*/
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/lato/Lato-Medium.eot');
+    src: url('../fonts/lato/Lato-Medium.woff2') format('woff2'),
+         url('../fonts/lato/Lato-Medium.woff') format('woff'),
+         url('../fonts/lato/Lato-Medium.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Lato Thin';
+    src: url('../fonts/lato/Lato-Thin.eot');
+    src: url('../fonts/lato/Lato-Thin.woff2') format('woff2'),
+         url('../fonts/lato/Lato-Thin.woff') format('woff'),
+         url('../fonts/lato/Lato-Thin.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+
+}
+
 @font-face {
     font-family: 'Comfortaa';
     src: url('../fonts/comfortaa/Comfortaa.woff2') format('woff2'),
@@ -242,7 +262,8 @@ hr {
 }
 
 .main-title .thin {
-	font-weight: 100;
+	font-family: Lato Thin;
+	font-weight: lighter;
 }
 
 @media only screen and (max-width : 768px) {
@@ -258,6 +279,7 @@ hr {
 }
 
 .big_point {
+	font-family: Comfortaa;
 	text-transform: uppercase;
 	color: #FF5733;
 }
